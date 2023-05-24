@@ -355,8 +355,8 @@ body {
   align-items: center;
 }
 
-.people-soc-icon:hover,
-.people-soc-icon:focus {
+.social-media:hover .people-soc-icon,
+.social-media:focus .people-soc-icon {
   fill: var(--brand-color-white);
 }
 
@@ -414,22 +414,22 @@ body {
 }
 .clients-logo {
   cursor: pointer;
-}
-.clients-logo-svg {
   fill: var(--icons);
   box-sizing: border-box;
   border: 1px solid var(--icons);
   border-radius: 4px;
   width: 170px;
   height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.clients-logo-svg:hover,
-.clients-logo-svg:focus {
+.clients-logo:hover,
+.clients-logo:focus {
   fill: var(--brand-color-blue);
   border-color: var(--brand-color-blue);
 }
-
 /* -- Footer -- */
 
 .footer-logo {
@@ -550,6 +550,7 @@ body {
   display: flex;
   justify-content: end;
   text-align: center;
+  padding-left: 90px;
   
 }
 
@@ -584,24 +585,43 @@ body {
 }
 
 .submit-send{
-  background-color: var(--brand-color-blue);
-  border: 1px solid var(--brand-color-blue);
-  border-radius: 4px;
-  color:var(--brand-color-white);
+  
   font-size: 16px;
   line-height: 1.6;
   font-weight: 700;
-  text-align: center;
-  padding: 10px 24px 10px 42px;
+  padding-top: 48px;
   letter-spacing: 0.06rem;
   position: relative;
   top: 0px;
- 
+  Width: 200px;
+  Height: 50px; 
+  margin-left: ;
+  
+}
+
+.submit_btn{
+  width: 200px;
+  height: 50px;
+  background-color: var(--brand-color-blue);
+  color: var(--brand-color-white);
+  text-align: center;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: #2196F3;
+  margin-top: 36px;
 }
 
 .icon-send{
-  position: absolute;
-  right: 0px;
+  position: relative;
+  margin-left: 24px;
+  margin-right: 28px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.form-element{
+  display: inline-block;
 }
 
 /* -- Portfolio -- */
@@ -791,7 +811,15 @@ body {
   font-size: 12px;
   margin-left: 40px;
   margin-right: 40px;
+  padding-bottom: 28px;
+  color:#757575;
+}
+
+.input-form{
   color: #757575;
+  box-sizing: border-box;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
 .checkbox-label{
@@ -801,4 +829,31 @@ font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03;
 color: #757575;
+padding-left: 54px;
+}
+
+.modal-coment{
+  color: #757575 50%;
+  : 12px;
+}
+
+.form-btn{
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background-color: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--brand-color-white);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 164px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.form-title{
+  margin-bottom: 12px;
 }

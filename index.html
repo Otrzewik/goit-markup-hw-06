@@ -493,10 +493,10 @@
               </a>
             </li>
           </ul>
-        </div>
+        
         <ul>
         <li class="mail-form">
-        <div>
+        <div class="form-element">
           <h3 class="text-news">ZAPISZ SIĘ DO NEWSLETTERA</h3>
           <form class="form-mail">
             <input
@@ -505,12 +505,16 @@
             name="email"
             placeholder="E-mail"
             />
-            <button type="submit" class="'submit-send">Zapisz się
+          </div>
+          <div class="form-element">
+            <button type="submit" class="'submit-send submit_btn">Zapisz się
             <svg class="icon-send" width="24" height="24">
               <use href="./images/svg/icons.svg#icon-send"></use>
             </svg>
             </button>
+          </div>
           </form>
+        </div>
         </div>
       </li>
       </ul>
@@ -525,10 +529,10 @@
         </button>
         <form>
           <div class="modal-form">
-          <p>Zostaw swoje dane w formularzu poniej</p>
+          <p class="form-title">Zostaw swoje dane w formularzu poniej</p>
           <label class="modal-label">
             Imię 
-            <input type="text" name="username"/>
+            <input class="input-form" type="text" name="username"/>
             <svg class="username-icon" width="12" height="12">
               <use href=""></use>
             </svg>
@@ -536,23 +540,26 @@
 
           <label class="modal-label">
             Telefon
-            <input type="tel" name="phone-number"/>
+            <input class="input-form" type="tel" name="phone-number"/>
           </label>
 
           <label class="modal-label">
             Email
-            <input type="email" name="email"/>
+            <input class="input-form" type="email" name="email"/>
           </label>
 
-          <label>
+          <label class="modal-label">
             Komentarz
-            <textarea name="comment" rows="8" placeholder="Wprowadź tekst"></textarea>
+            <textarea class="modal-coment input-form" name="comment" rows="8" placeholder="Wprowadź tekst"></textarea>
           </label>
 
           <label class="checkbox-label">
             <input type="checkbox" name="privacy-policy"/>
             Oświadczam i akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę prywatności</a>
           </label>
+          <div class="form-btn">
+            <button type="'button" class="">Wyślij</button>
+          </div>
         </div>
       </form>
       </div>
