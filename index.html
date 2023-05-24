@@ -494,6 +494,26 @@
             </li>
           </ul>
         </div>
+        <ul>
+        <li class="mail-form">
+        <div>
+          <h3 class="text-news">ZAPISZ SIĘ DO NEWSLETTERA</h3>
+          <form class="form-mail">
+            <input
+            class="input-mail"
+            type="'email"
+            name="email"
+            placeholder="E-mail"
+            />
+            <button type="submit" class="'submit-send">Zapisz się
+            <svg class="icon-send" width="24" height="24">
+              <use href="./images/svg/icons.svg#icon-send"></use>
+            </svg>
+            </button>
+          </form>
+        </div>
+      </li>
+      </ul>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -503,6 +523,38 @@
             <use href="./images/svg/icons.svg#icon-close-black"></use>
           </svg>
         </button>
+        <form>
+          <div class="modal-form">
+          <p>Zostaw swoje dane w formularzu poniej</p>
+          <label class="modal-label">
+            Imię 
+            <input type="text" name="username"/>
+            <svg class="username-icon" width="12" height="12">
+              <use href=""></use>
+            </svg>
+          </label>
+
+          <label class="modal-label">
+            Telefon
+            <input type="tel" name="phone-number"/>
+          </label>
+
+          <label class="modal-label">
+            Email
+            <input type="email" name="email"/>
+          </label>
+
+          <label>
+            Kompentarz
+            <textarea name="comment" rows="8" placeholder="Wprowadź tekst"></textarea>
+          </label>
+
+          <label class="checkbox-label">
+            <input type="checkbox" name="privacy-policy"/>
+            Oświadczam i akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę prywatności</a>
+          </label>
+        </div>
+      </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
