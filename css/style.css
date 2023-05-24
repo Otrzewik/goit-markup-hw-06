@@ -596,8 +596,7 @@ body {
   letter-spacing: 0.06rem;
   position: relative;
   top: 0px;
-  Width: 200px;
-  Height: 50px;
+ 
 }
 
 .icon-send{
@@ -802,13 +801,4 @@ font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03;
 color: #757575;
-margin-left: 40px;
-margin-right: 40px;
-}
-
-.modal input{
-  margin-top: 4px;
-  width: 448px;
-  height: 40px;
-  background-color: #FFFFFF;
 }
