@@ -550,7 +550,7 @@ body {
   display: flex;
   justify-content: end;
   text-align: center;
-  padding-left: 90px;
+  padding-left: 78px;
   
 }
 
@@ -573,6 +573,7 @@ body {
   padding: 15px;
   width: 358px;
   margin-right: 12px;
+
 }
 
 .text-news{
@@ -585,7 +586,6 @@ body {
 }
 
 .submit-send{
-  
   font-size: 16px;
   line-height: 1.6;
   font-weight: 700;
@@ -595,8 +595,6 @@ body {
   top: 0px;
   Width: 200px;
   Height: 50px; 
-  margin-left: ;
-  
 }
 
 .submit_btn{
@@ -610,6 +608,9 @@ body {
   border-radius: 4px;
   border-color: #2196F3;
   margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-send{
@@ -623,6 +624,7 @@ body {
 .form-element{
   display: inline-block;
 }
+
 
 /* -- Portfolio -- */
 
@@ -834,7 +836,7 @@ padding-left: 54px;
 
 .modal-coment{
   color: #757575 50%;
-  : 12px;
+
 }
 
 .form-btn{
@@ -857,3 +859,28 @@ padding-left: 54px;
 .form-title{
   margin-bottom: 12px;
 }
+
+.send-btn{
+  color: var(--brand-color-white);
+  background-color: #2196F3;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background-color: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--brand-color-white);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 164px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.form-link{
+  color: var(--brand-color-blue);
+}
+
+
