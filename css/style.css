@@ -366,17 +366,16 @@ body {
 .social-media:hover .people-soc-icon,
 .social-media:focus .people-soc-icon {
   fill: var(--brand-color-white);
-  transition: color 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media:hover,
 .social-media:focus {
+  border-radius: 50%;
   background-color: var(--brand-color-blue);
   fill: var(--brand-color-white);
-  border-radius: 50%;
-  transition: color 250ms;
+  transition: background-color 250ms, fill 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .people-jobs-fd {
@@ -563,9 +562,9 @@ body {
 
 .socials-footer:hover,
 .socials-footer:focus {
-  background-color: var(--brand-color-blue);
-  transition: color 250ms, fill 250ms;
+  transition: background-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--brand-color-blue);
 }
 
 .mail-form {
@@ -661,7 +660,7 @@ body {
   background-color: var(--brand-color-blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: color 250ms;
+  transition: background-color 250ms, color 250ms, box-shadow 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
