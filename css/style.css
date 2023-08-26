@@ -616,6 +616,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 24px;
+  cursor: pointer;
 }
 
 .form-element {
@@ -770,14 +771,16 @@ body {
   border-radius: 50%;
   cursor: pointer;
   fill: var(--brand-color-white);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex; /* Ustawienie na flex, aby wyśrodkować zawartość */
+  justify-content: center; /* Wyśrodkowanie wzdłuż osi X */
+  align-items: center; /* Wyśrodkowanie wzdłuż osi Y */
+  
 }
 
 .modal-close:hover,
 .modal-close:focus {
   background-color: var(--brand-color-blue);
+  border-color: #2196f3;
 }
 
 .modal-close:hover .modal-icon,
@@ -788,6 +791,8 @@ body {
 .modal-icon {
   fill: var(--brand-color-black);
   transition: fill var(--transition);
+  width: 60%;
+  height: 60%;
 }
 
 .is-hidden {
@@ -877,6 +882,7 @@ body {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
+  border: none;
 }
 
 .form-link {
